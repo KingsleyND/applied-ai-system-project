@@ -32,6 +32,20 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+## Smarter Scheduling
+
+The scheduling engine in `pawpal_system.py` goes beyond a basic priority sort. Here is what was added:
+
+**Sort by time** — `Schedule.sort_by_time()` orders tasks chronologically by their `"HH:MM"` start time using a lambda that converts to `(hour, minute)` integer tuples, so the sort is numerically correct regardless of zero-padding.
+
+**Filter tasks** — `Owner.filter_tasks(pet_name, completed)` returns a subset of tasks matching an optional pet name, completion status, or both combined. Useful for displaying only a single pet's pending tasks.
+
+**Conflict detection** — `Schedule.detect_conflicts()` compares every pair of tasks using the interval overlap formula (`A.start < B.end and B.start < A.end`). Conflicts across any pets are caught. Returns a list of plain-English warning strings and never raises an exception, so the app keeps running even when overlaps exist.
+
+**O(1) lookups** — `Owner` maintains internal dicts keyed by pet name and task title so that `delete_pet()` and `delete_task()` skip linear scans entirely.
+
+**Sort cache** — `generate_schedule()` caches the sorted task order and only re-sorts when the task list actually changes, avoiding redundant work on repeated calls.
+
 ### Suggested workflow
 
 1. Read the scenario carefully and identify requirements and edge cases.
