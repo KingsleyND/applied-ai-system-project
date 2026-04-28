@@ -192,3 +192,6 @@ This project taught me two things about working with AI that I'll carry forward.
 The first is to test as I code. With AI assistance it's easy to generate a lot of code quickly, but that speed means bugs can pile up just as fast. Running tests after each small addition — rather than at the end — caught issues early when they were still easy to trace and fix.
 
 The second is to resist over-engineering. AI tools are great at suggesting elaborate solutions: caching layers, abstract base classes, vector databases, complex pipelines. Most of that wasn't needed here. Keeping the code simple and purpose-built made it easier to debug, easier to change (like swapping the AI provider), and easier to understand. The rule I landed on: build what the problem actually needs, not what sounds impressive.
+
+Loom video:
+https://www.loom.com/share/faf0b6fe463c40d7bc1eb5e3017c4882
