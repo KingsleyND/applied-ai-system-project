@@ -1,5 +1,6 @@
 import streamlit as st
 from pawpal_system import Pet, Task, Owner, Schedule
+from rag import get_ai_suggestions
 
 
 st.set_page_config(page_title="PawPal+", page_icon="🐾", layout="centered")
@@ -50,6 +51,34 @@ if st.session_state.owner:
                 st.success(f"Pet '{new_pet_name}' added.")
             else:
                 st.error("Enter a pet name before adding.")
+
+st.divider()
+
+# -------------------------------------------------------------------------
+# AI Care Suggestions (RAG)
+# -------------------------------------------------------------------------
+st.subheader("AI Care Suggestions")
+
+if st.session_state.owner:
+    owner = st.session_state.owner
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        suggest_pet = st.selectbox("Select pet", [p.name for p in owner.pets], key="suggest_pet")
+    with col2:
+        suggest_breed = st.text_input("Breed (e.g. Golden Retriever)", key="suggest_breed")
+    with col3:
+        suggest_age = st.number_input("Age (years)", min_value=0, max_value=20, value=3, key="suggest_age")
+
+    if st.button("Get AI Suggestions"):
+        if not suggest_breed.strip():
+            st.error("Enter a breed to get suggestions.")
+        else:
+            with st.spinner("Looking up breed facts and generating suggestions..."):
+                suggestions = get_ai_suggestions(suggest_breed.strip(), int(suggest_age))
+            st.success("Here's what the AI found:")
+            st.markdown(suggestions)
+else:
+    st.info("Create an owner first to get AI suggestions.")
 
 st.divider()
 

@@ -1,0 +1,162 @@
+[
+    {
+        "name": "1. Labrador Retriever",
+        "fact1": "Highly energetic and prone to weight gain; requires strict portion control and 1-2 hours of daily exercise.",
+        "fact2": "Highly social and eager to please; thrives on companionship and can develop destructive behaviors if isolated.",
+        "young": "Requires rigorous chew-training and socialization to prevent destructive chewing habits and jumping.",
+        "mid": "Peak physical condition; ideal for dog sports, running, and swimming to maintain cardiovascular health.",
+        "old": "Highly susceptible to joint issues like hip dysplasia; orthopedic beds and joint supplements (glucosamine) are recommended."
+    },
+    {
+        "name": "2. German Shepherd",
+        "fact1": "Exceptionally intelligent working dogs; need continuous mental stimulation (training, puzzles) to prevent anxiety.",
+        "fact2": "Prone to hip dysplasia and bloat (gastric dilatation-volvulus); use slow-feeder bowls and avoid exercise right after meals.",
+        "young": "Demands consistent, firm, and positive obedience training early on to manage their protective instincts.",
+        "mid": "Needs a 'job' or advanced training activities (agility, tracking) to stay mentally and physically fulfilled.",
+        "old": "Monitor closely for hind-leg weakness and degenerative myelopathy; keep them on single-level living if mobility decreases."
+    },
+    {
+        "name": "3. Golden Retriever",
+        "fact1": "Heavy shedders with a dense double coat; require brushing several times a week to prevent matting and manage shedding.",
+        "fact2": "Prone to separation anxiety; they form intense bonds with their families and shouldn't be left alone for long periods.",
+        "young": "Naturally 'mouthy' retrievers; provide plenty of appropriate chew toys and practice bite inhibition.",
+        "mid": "Needs steady, daily cardiovascular exercise to prevent obesity, which can exacerbate joint problems.",
+        "old": "High risk for cancers (like hemangiosarcoma and lymphoma); requires bi-annual veterinary wellness and cancer screenings."
+    },
+    {
+        "name": "4. French Bulldog",
+        "fact1": "Brachycephalic (flat-faced) breed; extreme caution is required in hot or humid weather as they cannot pant efficiently to cool down.",
+        "fact2": "Prone to spinal issues (IVDD); they should be discouraged from jumping off furniture.",
+        "young": "Avoid stairs and heavy impact exercises during growth to protect their developing spine and joints.",
+        "mid": "Maintain strict weight management; even a little extra weight severely restricts their already compromised airways.",
+        "old": "Breathing issues may worsen with age; provide soft food if dental issues arise and keep their environment stress-free."
+    },
+    {
+        "name": "5. Poodle (Standard)",
+        "fact1": "Hypoallergenic hair instead of fur; requires professional grooming and clipping every 4-6 weeks to prevent severe matting.",
+        "fact2": "Extremely intelligent and sensitive; responds best to positive reinforcement and can become stressed in chaotic environments.",
+        "young": "Highly impressionable; early socialization is key to preventing them from becoming high-strung or timid.",
+        "mid": "Excellent stamina and athleticism; requires vigorous daily exercise, including running or swimming.",
+        "old": "Prone to vision loss (cataracts/PRA) and Addison's disease; maintain consistent home layouts to help failing vision."
+    },
+    {
+        "name": "6. Beagle",
+        "fact1": "Driven entirely by their nose; must be kept on a leash or in a securely fenced area to prevent them from wandering off.",
+        "fact2": "Very vocal breed (baying/howling); requires training and attention to manage noise levels.",
+        "young": "Needs scent-based games to channel their tracking instincts productively and tire them out.",
+        "mid": "Highly prone to obesity; strictly measure their food and avoid giving in to their begging behavior.",
+        "old": "Prone to intervertebral disc disease and arthritis; provide ramps for furniture access and soft bedding."
+    },
+    {
+        "name": "7. Bulldog (English)",
+        "fact1": "Requires daily cleaning of their facial wrinkles with a damp cloth to prevent skin fold dermatitis and infections.",
+        "fact2": "Extremely heat-sensitive and poor swimmers; must be supervised around water and kept in air-conditioning during summer.",
+        "young": "Can be stubborn; requires short, engaging training sessions with high-value rewards.",
+        "mid": "Low-energy breed, but still requires short, daily walks (15-20 mins) to prevent severe obesity.",
+        "old": "High risk for severe arthritis and respiratory decline; requires a high-quality joint supplement and orthopedic support."
+    },
+    {
+        "name": "8. Rottweiler",
+        "fact1": "Powerful and fiercely loyal; requires extensive socialization with people and other animals to prevent over-protectiveness.",
+        "fact2": "Prone to bone cancer and joint issues; keep them lean to reduce stress on their skeletal system.",
+        "young": "Needs strong leadership and consistent boundary-setting before they reach their full, powerful adult size.",
+        "mid": "Requires a mix of physical exercise and mental tasks (like obedience or weight-pulling sports) to stay balanced.",
+        "old": "Monitor for signs of heart issues (subaortic stenosis) and cancer; provide a highly digestible senior diet."
+    },
+    {
+        "name": "9. Dachshund",
+        "fact1": "Elongated spine makes them highly susceptible to Intervertebral Disc Disease (IVDD); strictly prohibit jumping off beds/couches.",
+        "fact2": "Strong prey drive; they love to dig and chase small animals, so yards must be secure.",
+        "young": "Train them to use ramps for furniture early on so it becomes a lifelong, spine-saving habit.",
+        "mid": "Weight management is absolutely critical; excess weight places catastrophic strain on their long backs.",
+        "old": "Watch for sudden signs of paralysis or back pain; regular dental cleanings are required as they are prone to severe tooth decay."
+    },
+    {
+        "name": "10. Yorkshire Terrier",
+        "fact1": "Their fine, human-like hair requires daily brushing or a short 'puppy cut' to prevent painful mats.",
+        "fact2": "Prone to collapsing trachea; always use a harness instead of a neck collar when walking them.",
+        "young": "Can be difficult to house-train; requires extreme consistency and positive reinforcement.",
+        "mid": "High energy despite their size; regular interactive play and short walks are necessary to curb excessive barking.",
+        "old": "High risk for severe dental disease, which can lead to organ failure; prioritize soft foods and regular vet dentals."
+    },
+    {
+        "name": "11. Boxer",
+        "fact1": "A high-energy, playful breed that takes longer to mature (acts like a puppy until age 3); needs plenty of vigorous exercise.",
+        "fact2": "Predisposed to certain cancers (mast cell tumors, lymphoma) and heart conditions (cardiomyopathy).",
+        "young": "Can be overly exuberant and jumpy; focus heavily on 'four on the floor' training to prevent them from knocking people over.",
+        "mid": "Thrives on daily runs or intense fetch sessions; mental stimulation is needed to prevent destructive chewing.",
+        "old": "Requires close monitoring for lumps and bumps; keep them comfortable in extreme temperatures as they are somewhat brachycephalic."
+    },
+    {
+        "name": "12. Siberian Husky",
+        "fact1": "Notorious escape artists; require highly secure fencing that goes deep into the ground to prevent digging out.",
+        "fact2": "Thick double coat blows out twice a year; never shave a Husky, as their coat regulates both heat and cold.",
+        "young": "High prey drive and strong pack instincts; start recall training early, though they should rarely be off-leash.",
+        "mid": "Bred to run all day; requires intense daily exercise (like pulling, running, or hiking) to prevent howling and destruction.",
+        "old": "Prone to eye issues like cataracts and progressive retinal atrophy; keep their environment predictable."
+    },
+    {
+        "name": "13. Doberman Pinscher",
+        "fact1": "Extremely loyal 'velcro dogs' that must live indoors with their family; they have low tolerance for cold weather.",
+        "fact2": "Highly prone to Dilated Cardiomyopathy (DCM); regular echocardiograms are recommended.",
+        "young": "Requires intensive, positive socialization to ensure they grow into confident, rather than fearful or aggressive, adults.",
+        "mid": "Highly athletic and intelligent; excels in advanced obedience, protection sports, and agility.",
+        "old": "Keep them warm during winter with coats; monitor heart health and mobility issues closely."
+    },
+    {
+        "name": "14. Great Dane",
+        "fact1": "Giant breed with a short lifespan (7-10 years); highly prone to fatal bloat, requiring smaller meals and possibly a preventative stomach tack.",
+        "fact2": "Takes up a lot of space but has low to moderate exercise needs; they are generally 'couch potatoes'.",
+        "young": "Must be fed large-breed specific puppy food to ensure slow, steady growth and prevent severe bone/joint disorders.",
+        "mid": "Needs a soft, large bed to prevent hygromas (fluid-filled swellings) on their elbows and joints.",
+        "old": "Often experiences severe osteoarthritis and hind-end weakness; require ramps for vehicles and thick orthopedic bedding."
+    },
+    {
+        "name": "15. Shih Tzu",
+        "fact1": "Their luxurious coat requires daily grooming or regular clipping; their eyes must be kept clean to prevent tear staining and infections.",
+        "fact2": "Bred primarily as companions; they do not tolerate isolation well and require moderate indoor play.",
+        "young": "Requires early grooming desensitization so they tolerate brushing and clipping throughout their lives.",
+        "mid": "Prone to dental issues and weight gain; monitor treats and maintain a consistent tooth-brushing routine.",
+        "old": "Prone to corneal ulcers and dry eye; requires regular veterinary eye drops and gentle handling of their back."
+    },
+    {
+        "name": "16. Australian Shepherd",
+        "fact1": "Incredibly high drive and intelligence; requires a 'job' (herding, agility, trick training) or they will become highly destructive.",
+        "fact2": "Prone to the MDR1 gene mutation, making them fatally sensitive to certain common veterinary medications (like Ivermectin).",
+        "young": "Will often try to 'herd' children and pets by nipping at heels; redirect this behavior instantly.",
+        "mid": "Requires 1-2 hours of intense physical and mental exercise daily; a simple walk is not enough.",
+        "old": "Prone to hip dysplasia and vision issues (cataracts); transition to low-impact exercise like swimming."
+    },
+    {
+        "name": "17. Chihuahua",
+        "fact1": "Prone to hypoglycemia (low blood sugar), especially when young or stressed; requires small, frequent meals.",
+        "fact2": "Often suffer from 'small dog syndrome' if not trained properly; they need the same rules and boundaries as large dogs.",
+        "young": "Extremely fragile; must be handled with care to avoid drops, and socialization is critical to prevent fear-aggression.",
+        "mid": "Prone to luxating patellas (slipping kneecaps); avoid letting them jump off high furniture.",
+        "old": "Highly prone to severe periodontal disease; requires soft diets and regular veterinary dental scaling."
+    },
+    {
+        "name": "18. Pug",
+        "fact1": "Another heavily brachycephalic breed; highly susceptible to heatstroke and respiratory distress.",
+        "fact2": "Prone to obesity, which drastically worsens their breathing and joint issues; strict calorie counting is required.",
+        "young": "Keep the folds on their face clean and dry from a young age to prevent yeast and bacterial infections.",
+        "mid": "Requires gentle, low-impact exercise during cool parts of the day to keep their weight managed.",
+        "old": "Susceptible to Pug Dog Encephalitis (PDE) and severe arthritis; prioritize extreme comfort and a stress-free environment."
+    },
+    {
+        "name": "19. Border Collie",
+        "fact1": "Considered the most intelligent dog breed; their need for mental stimulation is unmatched, requiring complex daily tasks.",
+        "fact2": "Highly sensitive to motion and sound; they may try to chase cars, bikes, or running children.",
+        "young": "Focus heavily on impulse control and an 'off switch' so they learn how to relax indoors.",
+        "mid": "Requires intense daily work (agility, flyball, herding); physical exhaustion alone won't tire them without mental puzzles.",
+        "old": "Keep their minds active with scent games and puzzle toys even when their bodies slow down from arthritis."
+    },
+    {
+        "name": "20. Pembroke Welsh Corgi",
+        "fact1": "Achondroplastic (dwarf) breed; their long backs and short legs make them prone to spinal injuries (IVDD).",
+        "fact2": "Bred to herd cattle; they are vocal, alert, and prone to nipping at heels if not trained properly.",
+        "young": "Requires early obedience training to manage their bossy, independent herding dog nature.",
+        "mid": "Keep them extremely trim; excess weight puts terrible stress on their long backs and short joints.",
+        "old": "Prone to Degenerative Myelopathy (a progressive spinal cord disease); monitor their gait and provide mobility aids if needed."
+    }
+]
