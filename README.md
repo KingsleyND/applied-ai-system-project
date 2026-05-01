@@ -193,5 +193,3 @@ The first is to test as I code. With AI assistance it's easy to generate a lot o
 
 The second is to resist over-engineering. AI tools are great at suggesting elaborate solutions: caching layers, abstract base classes, vector databases, complex pipelines. Most of that wasn't needed here. Keeping the code simple and purpose-built made it easier to debug, easier to change (like swapping the AI provider), and easier to understand. The rule I landed on: build what the problem actually needs, not what sounds impressive.
 
-Loom video:
-https://www.loom.com/share/faf0b6fe463c40d7bc1eb5e3017c4882
